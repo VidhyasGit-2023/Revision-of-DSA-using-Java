@@ -1,0 +1,103 @@
+Inside dfs Method and No of ith time call is made :1
+Start Value Before If Loop :0
+Start Value Inside else After adding an element :0
+list Value Inside else After adding an element :[1]
+Inside dfs Method and No of ith time call is made :2
+Start Value Before If Loop :1
+Start Value Inside else After adding an element :1
+list Value Inside else After adding an element :[1, 2]
+Inside dfs Method and No of ith time call is made :3
+Start Value Before If Loop :2
+Start Value Inside else After adding an element :2
+list Value Inside else After adding an element :[1, 2, 3]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[1, 2, 3]
+Start Value Inside else After calling Recursive in add element section :2
+list Value Inside else After calling Recursive in add element section :[1, 2, 3]
+Start Value Inside else After removing last element :2
+list Value Inside else After removing last element :[1, 2]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[1, 2]
+Start Value Inside else After calling Recursive in after remove section :2
+list Value Inside else After calling Recursive in after remove section :[1, 2]
+Start Value Inside else After calling Recursive in add element section :1
+list Value Inside else After calling Recursive in add element section :[1, 2]
+Start Value Inside else After removing last element :1
+list Value Inside else After removing last element :[1]
+Inside dfs Method and No of ith time call is made :3
+Start Value Before If Loop :2
+Start Value Inside else After adding an element :2
+list Value Inside else After adding an element :[1, 3]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[1, 3]
+Start Value Inside else After calling Recursive in add element section :2
+list Value Inside else After calling Recursive in add element section :[1, 3]
+Start Value Inside else After removing last element :2
+list Value Inside else After removing last element :[1]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[1]
+Start Value Inside else After calling Recursive in after remove section :2
+list Value Inside else After calling Recursive in after remove section :[1]
+Start Value Inside else After calling Recursive in after remove section :1
+list Value Inside else After calling Recursive in after remove section :[1]
+Start Value Inside else After calling Recursive in add element section :0
+list Value Inside else After calling Recursive in add element section :[1]
+Start Value Inside else After removing last element :0
+list Value Inside else After removing last element :[]
+Inside dfs Method and No of ith time call is made :2
+Start Value Before If Loop :1
+Start Value Inside else After adding an element :1
+list Value Inside else After adding an element :[2]
+Inside dfs Method and No of ith time call is made :3
+Start Value Before If Loop :2
+Start Value Inside else After adding an element :2
+list Value Inside else After adding an element :[2, 3]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[2, 3]
+Start Value Inside else After calling Recursive in add element section :2
+list Value Inside else After calling Recursive in add element section :[2, 3]
+Start Value Inside else After removing last element :2
+list Value Inside else After removing last element :[2]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[2]
+Start Value Inside else After calling Recursive in after remove section :2
+list Value Inside else After calling Recursive in after remove section :[2]
+Start Value Inside else After calling Recursive in add element section :1
+list Value Inside else After calling Recursive in add element section :[2]
+Start Value Inside else After removing last element :1
+list Value Inside else After removing last element :[]
+Inside dfs Method and No of ith time call is made :3
+Start Value Before If Loop :2
+Start Value Inside else After adding an element :2
+list Value Inside else After adding an element :[3]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[3]
+Start Value Inside else After calling Recursive in add element section :2
+list Value Inside else After calling Recursive in add element section :[3]
+Start Value Inside else After removing last element :2
+list Value Inside else After removing last element :[]
+Inside dfs Method and No of ith time call is made :4
+Start Value Before If Loop :3
+Start Value Inside If :3
+list Value Inside If :[]
+Start Value Inside else After calling Recursive in after remove section :2
+list Value Inside else After calling Recursive in after remove section :[]
+Start Value Inside else After calling Recursive in after remove section :1
+list Value Inside else After calling Recursive in after remove section :[]
+Start Value Inside else After calling Recursive in after remove section :0
+list Value Inside else After calling Recursive in after remove section :[]
+Final Result :[[1, 2, 3], [1, 2], [1, 3], [1], [2, 3], [2], [3], []]
